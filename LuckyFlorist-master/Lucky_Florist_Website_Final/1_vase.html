@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lucky Florist Vase Arrangements</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/w3.css">
+    <link href="./assets/styles.css" rel="stylesheet" />
+    <link href="./assets/lightbox.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("responsiveNav");
+            if (x.className === "mainNav") {
+                x.className += " responsive";
+                console.log('turn menu on')
+            } else {
+                x.className = "mainNav";
+                console.log('turn menu off')
+            }
+            var y = document.getElementByClassName("header");
+            if (y.className === "header") {
+                y.className += " responsive_header";
+            } else {
+                y.className = "header";
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+<div class="wrapper">
+
+
+    <!--    Navigation Bar-->
+
+    <div class="header">
+        <div class="logo"><a href="index.html"><img class="logo_image" src="assets/images/logolarge.png"></a></div>
+        <nav class="mainNav" id="responsiveNav">
+            <ul>
+                <li><a href="javascript:void(0);" style="font-size:8.5vw;" class="icon" onclick="myFunction()">&#9776;</a>
+                </li>
+                <li><a class="active" href="1_vase.html">Vase Arrangements</a>
+                </li>
+                <li><a href="2_centerpieces.html">Centerpieces</a>
+                </li>
+                <li><a href="3_sympathy.html">Sympathy</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <br><br>
+
+    <!--Content-->
+
+    <div id="viewport">
+
+        <h2>Vase Arrangements</h2>
+
+        <div class="gallery">
+            <p>
+                What better way is there to show you care than with flowers! <br><br> We create gorgeous hand crafted vase arrangements for all occasions; birthdays, anniversaries, thank you, holidays, alter arrangements, get well or as an expression of your love and appreciation. <br><br>Our vase arrangements and bouquets are filled with the freshest cut flowers in a wide selection of glass vases.
+            </p>
+
+        </div>
+
+
+        <div class="media-images">
+            <a class="media-item" href="./assets/images/vases/Vase01.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase01_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase02.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase02_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase03.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase03_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase04.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase04_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase05.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase05_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase06.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase06_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase07.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase07_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase08.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase08_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase09.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase09_thumb.jpg" />
+            </a>
+            <a class="media-item" href="./assets/images/vases/Vase10.jpg" data-lightbox="vase" data-title="Vase Arrangement">
+                <img src="./assets/images/vases/thumbnail/Vase10_thumb.jpg" />
+            </a>
+        </div>
+
+        
+    </div>
+
+
+    <br><br> <br><br> <br><br> <br><br>
+<!--    <br><br> <br><br> <br><br> <br><br>-->
+
+    <!--Footer-->
+
+    <div class="footer">
+        Address: 501 W MacArthur Blvd, Oakland, CA 94609 <br> Phone: (510) 653-3737<br>
+        Hours: 8.30am-5.30pm Monday-Friday
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="./assets/javascripts/lightbox.min.js"></script>
+
+</div>
+</body>
+
+</html>
